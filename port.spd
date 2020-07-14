@@ -1,0 +1,173 @@
+port.spd
+
+
+////////////////////////////
+// SEH PORT DESCRIPTION //
+////////////////////////////
+
+!!주의
+
+이 파일의 내용은 개발자이외에 임의로 변경하여서는 안됩니다.
+만약 변경할 경우 옳바른 선별이 안될수도 있습니다.
+
+내용을 추가할 경우 반드시 개발자와 상의하여 주십시요.!!
+
+- edited by B.K.Lee
+- 2014.04.28
+- S&P System
+-----------------------
+     Start of File
+-----------------------
+[MASTER PORT]                       
+    (INIT)
+         <미사용>
+         <표준프로토콜>                          
+    (READ)
+         <미사용>
+         <표준프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+     (MAKER)
+         <미사용>
+             #N/A;
+         
+         <에스엔피>         ;maker id=1
+             #N/A;
+             #중량;    
+
+[SLAVE PORT]                       
+    (INIT)
+         <미사용>
+         <표준프로토콜>                    
+    (READ)
+         <미사용>
+         <표준프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+     (MAKER)
+         <미사용>
+         <에스엔피>
+
+[MASTER RDO]
+    (INIT)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>                   
+    (READ)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>
+     (MAKER)
+         <미사용>    
+
+[SLAVE RDO]
+    (INIT)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>
+    (READ)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+         <CAN 프로토콜>
+     (MAKER)
+         <미사용>
+         
+[TOTALIZER]
+    (INIT)
+         <미사용>
+         <표준프로토콜>                  
+    (READ)
+         <미사용>
+         <표준프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+     (MAKER)
+         <미사용>
+         <에스엔피>     ;maker id=1
+         
+[CAMERA PORT]
+    (INIT)
+         <미사용>
+         <표준프로토콜>
+    (READ)
+         <미사용>
+         <화상처리데이타 읽기>
+    (WRITE)
+         <미사용>
+    (MAKER)
+         <미사용>
+         <에스엔피-카메라>    ;maker id=1
+         <에스엔피-카메라2>   ;maker id=2
+[NDS PORT]
+    (INIT)
+         <미사용>
+         <표준프로토콜>                    
+    (READ)
+         <미사용>
+         <표준데이타처리>
+
+    (WRITE)
+         <미사용> 
+         <동기화프로토콜>
+     
+     (MAKER)
+         <미사용>               ;maker id=0
+         <에미넷>               ;maker id=1
+         <미츠이>               ;maker id=2
+         <생명과기술-비파괴>    ;maker id=3
+         <한성>                 ;maker id=4
+         <에미넷통합>           ;maker id=5
+
+[FAIL DETECTOR]
+    (INIT)
+         <미사용>
+         <표준프로토콜>                  
+    (READ)
+         <미사용>
+         <표준프로토콜>
+    (WRITE)
+         <미사용>
+         <표준프로토콜>
+     (MAKER)
+         <미사용>
+         <에스엔피>     ;maker id=1
+
+[EXTRA PORT1]
+    (INIT)
+         <미사용>
+    (READ)
+         <미사용>
+    (WRITE)
+         <미사용>    
+     (MAKER)
+         <미사용>        
+[EXTRA PORT2]
+    (INIT)
+         <미사용>
+    (READ)
+         <미사용>
+    (WRITE)
+         <미사용>
+    (MAKER)
+         <미사용>                         
+[EXTRA PORT3]
+    (INIT)
+         <미사용>
+    (READ)
+         <미사용>
+    (WRITE)
+         <미사용>
+    (MAKER)
+         <미사용>    
+%%%%% End of File %%%%%
